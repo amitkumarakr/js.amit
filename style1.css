@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+#orange{
+        background-color: darkorange;
+        border: 1px solid black;
+}
+#black{
+background-color: rgb(19, 18, 16);
+border: 1px solid black;
+}       
+#blue
+{
+background-color: rgb(30, 0, 255);
+border: 1px solid black;
+}
+#green{
+background-color: rgb(13, 100, 42);
+border: 1px solid black;
+}
+.htag{
+    text-align: center;
+}
+.previous{
+    text-align: center;
+}
